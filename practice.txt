@@ -75,3 +75,5 @@ git restore --staged <file name >
     used to untracked or unstaged the staged file 
 
     
+copy from github to local 
+git clone  and link of perticular foldr from github
