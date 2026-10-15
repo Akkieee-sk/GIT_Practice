@@ -1,0 +1,36 @@
+DEVOPS PROJECT
+ GIt AND GITHUB 
+
+git - is a tool allows us to version control [version control system]
+      ex -delete, remove.add 
+
+$git init 
+   - initializes an empat git repository 
+
+$git status 
+       what does git status do ?
+    --> it status where you did git init 
+     it status in which branch ur r in
+     how many commits youre made 
+     how many tracked and untracked files are there 
+
+
+what is branch ??
+   whenever you type git init you created a main branch   
+   ech             ----------------------------------  time line [branach 1]
+                  |
+      -----------------------------------  main branch 
+                      |-------------------  time line [branach 2]
+
+how to create branch ?
+$git checkout -b devlopement 
+
+go back to master branch 
+$git checkout -b master 
+
+what is commits
+
+how to add file to git 
+$git add test.py 
+
+
