@@ -28,9 +28,28 @@ $git checkout -b devlopement
 go back to master branch 
 $git checkout -b master 
 
-what is commits
 
-how to add file to git 
-$git add test.py 
+* how to add file to git 
+    $git add test.py    sysnxt - $git add [file name ]
+* how to add multiple files in one command 
+   $git add .
 
+*  how to removed added file from git 
+ sysntax $ git restore --staged [file name]
+
+what is commits  how to commit 
+git commit -m "added python code"   here -m state messeage 
+
+to commit fist time you need to enter you email and user name 
+step to setup name and email
+
+   PS F:\GIT_Practice> git config --global user.name "Akshay"
+PS F:\GIT_Practice> git config --global user.email "ks.akkiee@gmail.com"
+PS F:\GIT_Practice> git config --global --list
+user.name=Akshay
+user.email=ks.akkiee@gmail.com
+PS F:\GIT_Practice> 
+
+* restore deleted file in git 
+  $git restore [file name ]
 
