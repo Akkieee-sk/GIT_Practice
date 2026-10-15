@@ -38,7 +38,7 @@ $git checkout -b master
  sysntax $ git restore --staged [file name]
 
 what is commits  how to commit 
-git commit -m "added python code"   here -m state messeage 
+$git commit -m "added python code"   here -m state messeage 
 
 to commit fist time you need to enter you email and user name 
 step to setup name and email
@@ -53,3 +53,25 @@ PS F:\GIT_Practice>
 * restore deleted file in git 
   $git restore [file name ]
 
+revert in git 
+
+what does git status do 
+ gives the information of the current state of the git repository 
+
+ git checkout -b <branch name >
+    swiching to new branch  if you wan to swictch to an existing branch then use git checkout brach with -b 
+
+
+$git branch 
+    it show the all list of branches in main branch 
+
+
+$git commit -m {you messege}
+  use to commit or save the code or file that modified 
+ tracked the staged file after being added by git add 
+
+
+git restore --staged <file name >
+    used to untracked or unstaged the staged file 
+
+    
